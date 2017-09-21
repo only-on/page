@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>game</title>
+	<link rel="stylesheet" href="game.css">
+	<script src="game.js"></script>
+</head>
+<body>
+	<img src="3.jpg" alt="">
+	<div class="guan guan1">
+		第
+		<span>1</span>
+		关
+	</div>
+	<div class="score">
+		得分
+		<span>0</span>
+	</div>
+	<div class="shengming">
+		生命
+		<span>10</span>
+	</div>
+	<div class="begain">开始游戏</div>
+	<div class="pause pause1">暂停</div>
+	<div class="jixu jixu1">继续</div>
+</body>
+</html>
+<script>	
+	let begain=document.querySelector('.begain');
+	begain.onclick=function(){
+		let game=new Game();
+		game.start();
+		
+	}		
+	
+	
+</script>

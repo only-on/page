@@ -1,0 +1,392 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-22 14:10:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-22 19:16:25
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+}
+.logo{
+	width:0.7rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	float: left;
+}
+.logo img{
+	width:0.7rem;
+	height: 0.67rem;	
+	float: left;
+}
+.word1{
+	width: 1.15rem;
+	height: 0.35rem;
+	font-size: 0.35rem;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 0.16rem;
+	margin-top: 0.29rem;
+	float: left;
+}
+/* banner开始 */
+.banner{
+	width: 100%;
+	height:2.8rem;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a img{
+	width: 100%;
+	height: 2.8rem;
+}
+/* banner结束 */
+.daohang{
+	width: 100%;
+	height: 0.82rem;
+	background:#f5f6fa;
+}
+.shouye{
+	height: 0.24rem;
+	float: left;
+	margin-top: 0.31rem;
+	margin-left: 0.23rem;
+	font-size: 0.22rem;
+	color: #000;
+}
+.dayu{
+	width: 0.11rem;
+	height: 0.22rem;
+	margin-left: 0.15rem;
+	margin-top: 0.31rem;
+	float: left;
+	font-size: 0.22rem;
+	color: #000;
+}
+/* 第三部分开始 */
+.big{
+	width: 100%;
+	height: 2.26rem;
+	background: #f5f6fa;
+	border-bottom: 0.1rem solid #f5f6fa;
+}
+main{
+	width: 93.6%;
+	height: 100%;
+	background:#fff;
+	margin: 0 auto;
+}
+.mianfei{
+	width: 25%;
+	height: 2.26rem;
+	display: block;
+	background: #fff;
+	float: left;
+	/* overflow: hidden; */
+}
+.tu-top{
+	width: 100%;
+	height: 1.5rem;
+	float: left;
+	/* background: yellowgreen; */
+}
+.tu{
+	width: 1.21rem;
+	height: 1.21rem;
+	background: red;
+	float: left;
+	margin-top: 0.28rem;
+	margin-left: 0.35rem;
+}
+.tu img{
+	width: 1.21rem;
+	height: 1.21rem;
+	display: block;
+}
+.wen{
+	height: 0.77rem;
+	width: 100%;
+	/* background: red; */
+	float: left;
+	font-size: 0.24rem;
+	color: #000;
+	text-align: center;	
+	line-height: 0.77rem;
+}
+/* 第三部分结束 */
+/* 关于前端开始 */
+.about{
+	width: 100%;
+	height: 4.7rem;
+	background: #f5f6fa;
+	border-bottom: 0.1rem solid #f5f6fa;
+}
+.gaishu{
+	width: 100%;
+	height: 0.667rem;
+	background:#fff;
+}
+.shu{
+	width: 0.05rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-top: 0.32rem;
+	margin-left: 0.19rem;
+	float: left; 
+}
+.word{
+	height: 0.23rem;
+	font-size: 0.23rem;
+	color: #000;	
+	margin-top: 0.25rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.xu{
+	width: 6.41rem;
+	height: 0.01rem;
+	border-bottom: 0.01rem dashed #999;
+	margin-left: 0.42rem;
+}
+.jieshao{
+	width: 100%;
+	height: 3.9rem;
+	background:#fff;
+	overflow: hidden;
+}
+.jieshao p{
+	margin-top: 0.16rem;
+	margin-left: 0.42rem;
+	font-size: 0.23rem;
+	color: #666666;
+}
+.lan{
+	margin-left: 0.42rem;
+	font-size: 0.23rem;
+	color: #01b5ff;
+}
+.jieshao .jieshao1{
+	margin-top: 0;
+}
+/* 关于前端结束 */
+/* 行业开始 */
+.jiuye{
+	width: 100%;
+	height: 5.76rem;
+	background: #f5f6fa;
+	border-bottom: 0.1rem solid #f5f6fa;
+}
+.jiuye-tu{
+	width: 100%;
+	height: 5.08rem;
+	background: yellow;
+}
+.jiuye-tu img{
+	width: 100%;
+	height: 5.08rem;
+	display: block;
+}
+/* 行业结束 */
+/* 可就业岗位开始 */
+.ke{
+	width: 100%;
+	height: 5.56rem;
+	background:#f5f6fa;
+	border-bottom: 0.1rem solid #f5f6fa;
+}
+.wangzhan{
+	width: 100%;
+	height:0.76rem;
+	/* background: yellowgreen;  */
+
+}
+.wangzhan-tu{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: #f5f6fa;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.5rem;
+	margin-right: 0.2rem;
+}
+.wangzhan-tu img{
+	width: 0.56rem;
+	height: 0.56rem;
+	display: block;
+}
+.wangzhan-wen{
+	width: 5.67rem;
+	height: 0.56rem;
+	margin-top: 0.2rem;
+	/* background: yellow; */
+	float: left;
+}
+.zhong{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #01b5ff;
+	margin-bottom: 0.07rem;
+}
+.ying{
+	height: 0.16rem;
+	font-size: 0.16rem;
+	color: #000;
+}
+/* 可就业岗位结束 */
+/* 就业学员开始 */
+.xueyuan{
+	width: 100%;
+	height:4.98rem;
+	background: #f5f6fa;
+	border-bottom: 0.1rem solid #f5f6fa;
+}
+.xiangqing{
+	width: 100%;
+	height: 4.3rem;
+	/* background: red; */
+}
+.xing{
+	width: 100%;
+	height: 0.77rem;
+	/* background: yellow; */
+}
+.xing1{
+	width: 2.06rem;
+	height: 0.77rem;
+	/* background: orange; */
+	float: left;
+}
+.xing11{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	margin-top: 0.29rem;
+	margin-left: 0.58rem;
+	color: #000;
+}
+.xinzi{
+	width: 2.65rem;
+	height: 0.77rem;
+	/* background: yellowgreen; */
+	float: left; 
+}
+.xinzi1{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	margin-top: 0.29rem;
+	color: #000;
+}
+.qita{
+	width: 2.11rem;
+	height: 0.77rem;
+	/* background: red; */
+	float: left;
+}
+.qita1{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	margin-top: 0.29rem;
+	color: #000;
+}
+.ju{
+	width: 100%;
+	height: 3.53rem;
+	/* background: yellow; */
+}
+.xian{
+	width: 0.57rem;
+	height: 3.53rem;
+	background: url('../img/qianduan00_03.png') no-repeat center center;
+	background-size: 0.57rem 3.53rem;
+	float: left;
+}
+.juti{
+	width: 91.880341%;
+	height: 3.53rem;
+	/* background: red; */
+	float: left;
+}
+.juti1{
+	width: 6.44rem;
+	height: 0.36rem;
+	/* background: yellow; */
+	float: left;
+	margin-bottom: 0.4rem;
+}
+.zhang{
+	/* width: 0.85rem; */
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-right: 0.26rem;
+	float: left;
+	
+}
+.jia{
+	width: 0.85rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #ffa201;
+	margin-right: 0.55rem;
+	float: left;
+}
+.zhang1{
+	margin-right: 0;
+}
+.juti2{
+	margin-bottom: 0;
+}
+/* 就业学员结束 */
+/* 课程安排开始 */
+.kecheng{
+	width: 100%;
+	height: 4.98rem;
+	background:#f5f6fa;
+	border-bottom: 0.3rem solid #f5f6fa;
+
+}
+.kecheng-tu{
+	width: 100%;
+	height: 4.3rem;
+	/* background: red; */
+	background: url('../img/qianduan001_03.png') no-repeat center center;
+	background-size: 7.02rem 4.3rem;
+}
+/* 课程安排结束 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.wen3{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	text-align: center;
+	/* margin-top: 0.19rem; */
+	margin-bottom: 0.13rem;
+	color:#8a8a8b;
+}
+.wen4{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: #8a8a8b;
+}

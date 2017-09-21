@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>画板</title>
+	<link rel="stylesheet" href="huanban.css">
+	<link rel="stylesheet" href="font/iconfont.css">	
+</head>
+<body>
+	<main>
+		<div class="left">
+			<div class="logo icon-huaban"></div>
+			<div class="xingzhuang">形状</div>
+			<ul>
+				<li class="icon-line tools" active="true" id="line"></li>
+				<li class="icon-xuxian tools" id="dash"></li>
+				<li class="icon-juxing tools" id="juxing"></li>
+				<li class="icon-dianj tools" id="arc"></li>
+				<li class="icon-wujiaoxing tools" id="start"></li>	
+				<li class="icon-duobianxing2 tools" id="duobian"></li>	
+				<li class="icon-qianbisvg0101 tools" id="pen"></li>		
+				<div class="gongju">工具</div>
+				<li class="icon-miaobian style" id="stroke"></li>
+				<li>
+					<input type="color">
+				</li>
+				<li class="icon-tianchong style" id="fill"></li>
+				<li>
+					<input type="color">
+				</li>
+				<li class="icon-xiangpica"></li>
+				<li class="icon-caiqie"></li>
+				<li class="icon-ziti3"></li>
+				<li class="icon-picture"></li>
+				
+			</ul>
+		</div>
+		<div class="right">
+			<div class="top">
+				<ol>
+					<li class="icon-xinjian"></li>
+					<a class="icon-baocun"></a>
+					<li class="icon-qiepian10"></li>
+					<li class="icon-xianfanxiang"></li>
+				</ol>
+			</div>
+			<div class="bottom">
+				<div class="mask"></div>
+				<canvas width="300" height="300"></canvas>
+				<div class="eraser"></div>
+				<div class="clip"></div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
+<script src="palette.js"></script>
+<script src="huaban.js"></script>

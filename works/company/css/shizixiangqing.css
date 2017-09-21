@@ -1,0 +1,226 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-21 17:25:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-21 21:51:59
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+}
+.logo{
+	width:0.7rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	float: left;
+}
+.logo img{
+	width:0.7rem;
+	height: 0.67rem;	
+	float: left;
+}
+.word1{
+	width: 1.15rem;
+	height: 0.35rem;
+	font-size: 0.35rem;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 0.16rem;
+	margin-top: 0.29rem;
+	float: left;
+}
+/* banner开始 */
+.banner{
+	width: 100%;
+	height:2.8rem;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a img{
+	width: 100%;
+	height: 2.8rem;
+}
+/* banner结束 */
+.daohang{
+	width: 100%;
+	height: 0.82rem;
+	background:#f5f6fa;
+}
+.shouye{
+	height: 0.24rem;
+	float: left;
+	margin-top: 0.31rem;
+	margin-left: 0.23rem;
+	font-size: 0.22rem;
+	color: #000;
+}
+.dayu{
+	width: 0.11rem;
+	height: 0.22rem;
+	margin-left: 0.15rem;
+	margin-top: 0.31rem;
+	float: left;
+	font-size: 0.22rem;
+	color: #000;
+}
+/* 概述开始 */
+.gai{
+	width: 100%;
+	height: 4.08rem;
+	background: #f5f6fa;
+	border-bottom: 0.2rem solid #f5f6fa;
+}
+main{
+	width: 93.6%;
+	height: 100%;
+	background:#fff;
+	margin: 0 auto;
+}
+.gaishu{
+	width: 100%;
+	height: 0.667rem;
+	background:#fff;
+}
+.shu{
+	width: 0.05rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-top: 0.32rem;
+	margin-left: 0.19rem;
+	float: left; 
+}
+.word{
+	height: 0.23rem;
+	font-size: 0.23rem;
+	color: #000;	
+	margin-top: 0.25rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.xu{
+	width: 6.41rem;
+	height: 0.01rem;
+	border-bottom: 0.01rem dashed #999;
+	margin-left: 0.42rem;
+}
+.xiangqing{
+	width: 100%;
+	height: 3.26rem;
+	background: #fff;
+}
+.zhaopian{
+	width: 2.8rem;
+	height: 2.8rem;
+	background: #fff;
+	border-radius: .05rem;
+	float: left;
+	margin-left: 0.43rem;
+	margin-top: 0.3rem;
+	margin-right: 0.32rem;
+}
+.zhaopian img{
+	width: 2.8rem;
+	height: 2.8rem;
+	border-radius: 0.05rem;
+	display: block;
+}
+.wen{
+	width: 3.3rem;
+	height: 100%;
+	float: left;
+	background:#fff;
+	overflow: hidden;
+}
+.ming{
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #000;
+	margin-top: 0.5rem;
+	margin-right: 0.07rem;
+	/* margin-bottom: 0.64rem; */
+	float: left;	
+	font-weight: bold;
+}
+.xingji{
+	height: 0.19rem;
+	font-size: 0.19rem;
+	color: #01b5ff;
+	margin-top: 0.5rem;
+	margin-right: 0.07rem;
+	/* margin-bottom: 0.64rem; */
+	float: left;
+}
+.zhuanye{
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #000;
+	float: left;
+	margin-top: 0.6rem;
+}
+.zhuanye1{
+	margin-top: 0.18rem;
+}
+.zhuanye2{
+	margin-top: 0.6rem;
+}
+
+/* 概述结束 */
+/* 教师简介开始 */
+.jiao{
+	width: 100%;
+	height: 5.08rem;
+	background:#f5f6fa;
+	overflow: hidden;
+	border-bottom: 0.28rem solid #f5f6fa;
+}
+.jianjie{
+	width: 6.5rem;
+	height: 1.9rem;
+	margin-top:0.2rem;
+	margin-left: 0.4rem; 
+}
+.jianjie p{
+	font-size: 0.23rem;
+	color: #000;
+	margin-bottom: 0.6rem;	
+}
+
+/* 教师简介结束 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.wen1{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	text-align: center;
+	/* margin-top: 0.19rem; */
+	margin-bottom: 0.13rem;
+	color:#8a8a8b;
+}
+.wen2{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: #8a8a8b;
+}

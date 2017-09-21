@@ -1,0 +1,906 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-11 18:13:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-12 13:04:52
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.head{
+	width: 100%;
+	height: 32px;
+	background: #f7f7f7;
+	border-bottom:1px solid #e5e5e5;
+}
+.head-main{
+	width: 1200px;
+	height: 100%;
+	background: #f7f7f7;
+	margin: 0 auto;
+	
+}
+.head-right{
+	width: 456px;
+	height: 32px;
+	background: #f7f7f7;	
+	float: right;
+}
+.welecom{
+	width: 133px;
+	height: 32px;
+	background: #f7f7f7;
+	font-size: 12px;
+	line-height: 32px;
+	color: #808080;
+	margin-right: 20px;
+	float: left;
+}
+.login-box{
+	width: 86px;
+	height: 32px;
+	background: #f7f7f7;
+	float: left;
+	font-size: 12px;
+	line-height: 32px;	
+	color: #808080;
+	margin-right: 14px;
+}
+.login{
+	margin-right: 11px;
+	color: #808080;
+}
+.shu{
+	margin-right: 9px;
+}
+.zhu{
+	color: #808080;
+
+}
+
+.dingdan{
+	width: 50px;
+	height: 32px;
+	background: #f7f7f7;	
+	float: left;
+	line-height: 32px;
+	font-size: 12px;
+	color: #808080;
+	margin-right: 16px;
+}
+.dingdan:hover{
+	color: #b71c20;
+}
+.gonggao{
+	width: 83px;
+	height: 32px;
+	background: #f7f7f7;	
+	float: left;
+	margin-right: 13px;
+	
+}
+/* 选择器：hover写鼠标移入的效果 */
+.wangzhan:hover{
+	color: #b71c20;
+}
+
+.box1{
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	margin-top: 9px;
+	float: left;
+	background: url('../img/凡客VANCL_03.png') no-repeat center center;
+}
+.yinliang{
+	width: 16px;
+	height: 16px;
+	background: yellow;
+	margin-top: 9px;
+	margin-right: 9px;
+	float: left;
+}
+.wangzhan{
+	font-size: 12px; 
+	color: #808080;
+	margin-top: 10px;
+	margin-left: 16px;
+	float: left;
+}
+.weixin{
+	width: 38px;
+	height: 18px;
+	background: yellow;
+	float: left;
+	margin-top: 7px;
+	background: url('../img/凡客VANCL_04.png') no-repeat center center;
+	background-size: 38px 18px;
+	position: relative;
+}
+.erwei{
+	width: 147px;
+	height: 167px;	
+	border: 1px solid #e5e5e5;
+	position: absolute;
+	top: 25px;
+	right:20px;
+	background: url('../img/fk_03.png') no-repeat center center;
+	background-size: 147px 167px;
+	display: none;
+	z-index: 2;
+}
+.weixin:hover .erwei{
+	display: block;
+}
+.chunji{
+	width: 100%;
+	height: 130px;
+	background: #ffffff;
+	font-size: 17px;
+	color: #a69a9a;
+	text-align: center;
+	line-height: 130px;
+}
+.big{
+	width: 100%;
+	height: 1200px;
+	background: #ffffff;
+	display: block;
+	
+}
+.big-box{
+	width: 1200px;
+	height: 1200px;
+	display: block;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.tupian{
+	width: 390px;
+	height: 600px;
+	background: red;
+	float: left;
+	margin-right: 15px;
+}
+.tupian2{
+	margin-right: 0;
+}
+.end{
+	width: 100%;
+	height: 126px;
+	background: #ffffff;
+	font-size: 17px;
+	color: #a69aa6;
+	text-align: center;
+	line-height: 126px;
+}
+.big-box{
+	width: 1200px;
+	height: 508px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.end-left{
+	width: 590px;
+	height: 508px;
+	background: red;
+	float: left;
+	margin-right: 17px;
+}
+.left1{
+	width: 590px;
+	height: 440px;
+	background: gray;
+}
+.left2{
+	width: 589px;
+	height: 67px;
+	background:#ffffff;
+	border-left: 1px solid #e8e7ec;
+	border-bottom:  1px solid #e8e7ec;
+	border-right:  1px solid #e8e7ec;
+}
+.left-left{	
+	margin-left: 12px;
+	margin-top: 29px;
+	float: left;
+	font-size: 13px;
+	color: #030303;
+}
+.left-right{	
+	float: right;
+	margin-right: 13px;
+	margin-top: 26px;
+	font-size: 14px;
+	color: #a10000;
+}
+.end-middle{
+	width: 290px;
+	height: 508px;
+	background: #ffffff;
+	float : left;
+	margin-right: 17px;
+}
+.middle1{
+	width: 290px;
+	height: 248px;
+	background: #ffffff;
+	margin-bottom: 12px;
+}
+.middle2{
+	margin-bottom: 0px;
+	height: 243px;
+}
+.top{
+	width: 290px;
+	height: 180px;
+	background: white;
+}
+.tu{
+	width: 290px;
+	height: 180px;
+}
+.bottom{
+	width: 288px;
+	height: 67px;
+	background: #ffffff;
+	border-left: 1px solid #e8e7ec;
+	border-bottom: 1px solid #e8e7ec;
+	border-right: 1px solid #e8e7ec;
+}
+.bo-left{	
+	margin-left: 12px;
+	margin-top: 29px;
+	float : left;
+	font-size: 13px;
+	color: #030303;
+}
+.bo-right{	
+	float: right;
+	margin-right: 13px;
+	margin-top: 26px;
+	font-size: 13px;
+	color: #a10000;
+}
+.end-finsh{
+	width: 286px;
+	height: 440px;
+	background: orange;	
+}
+.box{
+	width: 286px;
+	height: 508px;
+	background: #ffffff;
+	float: left;
+}
+.left1{
+	width: 286px;
+	height: 440px;
+	background: gray;
+}
+.fi-bottom{
+	width: 282px;
+	height: 67px;
+	font-size: 13px;
+	color: #d28c33;
+	border-left: 1px solid #e8e7ec;
+	border-bottom: 1px solid #e8e7ec;
+	border-right: 1px solid #e8e7ec;
+}
+.right{
+	margin-left: 12px;
+	margin-top: 29px;
+	float: left;
+	font-size: 13px;
+	color: #030303;
+}
+.right1{	
+	margin-right: 13px;
+	margin-top: 26px;
+	font-size: 13px;
+	color: #a10000;
+	float: right;
+}
+.nav-box{
+	width: 1200px;
+	height: 138px;
+	background: #ffffff;
+	margin : 0 auto;
+	padding-top: 28px;
+}
+.search-box{
+	width: 1200px;
+	height:29px;
+	background:  #ffffff;
+}
+.search-right{
+	width: 437px;
+	height: 29px;
+	background:  #ffffff;
+	float: right;
+}
+.right-1{
+	width: 307px;
+	height:29px;
+	background: white;
+	float: left;
+}
+.right11 {
+	width: 259px;
+	height: 27px;
+	background: white;
+	float: left;
+	border: 1px solid #c9caca;
+}
+input{
+	width: 249px;
+	height:27px;
+	border: none;
+	padding-left: 10px;
+}
+.right12{
+	width: 46px;
+	height: 29px;
+	background:  #ffffff;
+	float: right;
+	/* border-bottom: 1px solid #c9caca; */
+	border-right: 1px solid #c9caca;
+	border-top: 1px solid #c9caca;
+	background: url('../img/凡客VANCL_003.png');
+}
+.right2{
+	width: 105px;
+	height: 27px;
+	display: block;
+	background:  #b71a21;
+	border: 1px solid #c1383e;
+	border-bottom:1px solid #fff;
+	float: right;
+	position: relative;	 
+}
+.goSlide{
+	width: 325px;
+	height: 0px;
+	background:#fff;
+	position: absolute;
+	right: -1px;
+	top: 28px;
+	font-size: 12px;
+	color: #000;
+	line-height: 26px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.right2:hover {
+	background: #fff;
+}
+.right2:hover .car{
+	background: url('../img/vanclsprite_031.png') no-repeat center center;
+}
+.car{
+	width: 20px;
+	height: 16px;
+	background: pink;
+	margin-top: 6px;
+	margin-left: 5px;
+	background: url('../img/凡客VANCL_030.png') no-repeat center center;
+	background-size: 20px 16px;
+	margin-right: 4px;
+	float:left;
+}
+.right2 span{
+	font-size: 12px;
+	color: #fff;
+	float: left;
+	margin-top: 7px;
+
+}
+.right2:hover span{
+	color:#b71a21;
+
+}
+.hot-box{
+	width: 1200px;
+	height: 28px;
+	background:  #ffffff;
+	margin-top: 5px;
+}
+.hot{
+	width: 405px;
+	height: 28px;
+	background:  #ffffff;
+	float: right;
+	line-height: 28px;
+	font-size:12px; 	
+	color: #727171;
+
+}
+.hot a{
+	color: #727171;
+	margin-right: 1px;
+}
+.hot a:hover{
+	color: #b71c20;
+}
+.hot span{
+	margin-right: 3px;
+}
+.nav{
+	width: 1200px;
+	height: 43px;
+	background:  #ffffff;
+}
+.nav-left{
+	width: 183px;
+	height: 43px;
+	background: white;
+	float: left;
+	background: url('../img/凡客VANCL_007.png') no-repeat center center;
+}
+.navRight{
+	width: 989px;
+	height: 25px;
+	background: #ffffff;
+	float: right;
+	margin-top: 24px;
+}
+.navRight li{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+.navRight li .shouye{
+	width: 98px;
+	height: 18px;
+	font-size: 16px;
+	line-height: 18px;	
+	text-align: center;
+	float: left;
+	border-right: 1px solid #888888;
+	color: #727171;	
+}
+.navRight li a:hover{
+	color: #b71c20;
+}
+.navRight li:nth-child(2){
+	position: relative;
+}
+.navRight li:nth-child(3){
+	position: relative;
+}
+.navRight li:nth-child(4){
+	position: relative;
+}
+.navRight li:nth-child(5){
+	position: relative;
+}
+.navRight li:nth-child(6){
+	position: relative;
+}
+.navRight li:nth-child(7){
+	position: relative;
+}
+.navRight li:nth-child(8){
+	position: relative;
+}
+.navRight li:nth-child(9){
+	position: relative;
+}
+.navRight li:nth-child(10){
+	position: relative;
+}
+.slide{
+	width: 100%;
+	height:0;
+	background:#fff;
+	position: absolute;
+	left: 0;
+	top: 25px;
+	z-index: 1;	
+	transition: 0.6s;
+	overflow: hidden;	
+}
+.item{
+	display: block;
+	height: 30px;
+	font-size: 16px;
+	color: #727171;
+	text-align: center;	
+}
+.item1{
+	margin-top: 10px;
+}
+
+.navRight li .last{
+	border-right: 0px solid #888888;
+}
+.jiange{
+	width: 100px;
+	height: 48px;
+	background: white;
+	margin: 0 auto;
+
+}
+.bot{
+	width: 100%;
+	height: 469px;
+	background: #ffffff;
+}
+.lianxi-box{
+	width: 1198px;
+	height: 282px;
+	background: #ffffff;
+	
+	margin: 0 auto;
+	border: 1px solid #e0e0e1;
+}
+.box2{
+	width: 1119px;
+	height: 230px;
+	background: #ffffff;
+
+	margin: 0 auto;
+	margin-top: 22px;
+}
+.lianxi-top{
+	width: 1116px;
+	height: 172px;
+	background: #ffffff;
+	
+	margin-top: 24px;
+	margin-left: 40px;
+}
+.lianxi-top1{
+	width: 370px;
+	height: 138px;
+	background: #ffffff;
+	
+	margin-top: 9px;
+	float: left;
+	border-right: 1px solid #e0e0e1;
+
+}
+.lianxi-top11{
+	width: 35px;
+	height: 40px;
+	background: black;
+	/* margin-bottom: 32px; */
+	margin: 0 auto;
+	background: url('../img/onlinecustomer.png') no-repeat center center;
+	background-size: 35px 40px;
+
+}
+
+.lianxi-top12{
+	width: 156px;
+	height: 32px;
+	background: #b81c22; 
+	margin: 0 auto;
+	font-size: 12px;
+	color: #faf0f1;
+	margin-top: 32px;
+	text-align: center;
+	line-height: 32px;
+	font-weight: bold; 
+ 
+
+}
+.lianxi-midd{
+	width: 38px;
+	height: 38px;
+	background: #ffffff;
+
+}
+.midd{
+	width: 370px;
+	height: 138px;
+	margin-top: 9px;
+	float: left;
+	border-right: 1px solid #e0e0e1;
+	/* background: url('../img/seven.png') no-repeat center center; */
+
+}
+.qi{
+	width: 38px;
+	height: 38px;
+	background: white;
+	margin-left: 166px;
+	margin-top: 21px;
+}
+
+
+.wen{
+	width: 77px;
+	height: 12px;
+	background:white;
+	margin-left: 147px;
+	margin-top: 28px;
+	font-size: 12px;
+	color: #727171;
+	text-align: center;
+
+}
+.wen1{
+	width: 122px;
+	height: 12px;
+	background:white;
+	margin-left: 125px;
+	margin-top:16px;
+
+	font-size: 12px;
+	color: #727171;
+	text-align: center;
+}
+.righ{
+	width: 370px;
+	height: 138px;
+	background: #ffffff;
+	margin-top: 9px;
+	float: left;
+	border-right: 1px solid #e0e0e1;
+
+}
+.righ img{
+	width: 98px;
+	height: 99px;
+	margin-left: 136px;
+
+}
+.saomiao{
+	width: 127px;
+	height: 12px;
+	background: white;
+	margin-left: 122px;
+	margin-top: 19px;
+	font-size: 12px;
+	text-align: center;
+}
+.saomiao .fanke{
+	color: #a10000;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+/* .lianxi-top2{
+	width: 370px;
+	height: 25px;
+	background: green;
+	
+} */
+.lianxi-bo{
+	width: 1119px;
+	height: 57px;
+	background: #f8f8f8;
+	margin: 0 auto;
+
+}
+.lianxi-bo li{
+	width: 178px;
+	height: 26px;
+	border-right: 1px solid #dadadb;
+	margin-top: 17px;
+	float:left;
+	line-height: 26px;
+	text-align: center;
+}
+.lianxi-bo li a{
+	color: #323232;
+}
+.lianxi-bo li a:hover{
+	color: #b71c20;
+}
+.lianxi-bo li:last-child{
+	border-right: 0px solid #dadadb;
+
+}
+.lianxi-bo li:nth-child(3){
+	width: 214px;
+	
+} 
+.fi{
+	width: 1199px;
+	height: 160px;
+	background: #ffffff;
+	margin: 0 auto;
+	border-top: 1px solid #3e3a39;
+	margin-top: 25px;
+}
+.fi1{
+	width: 836px;
+	height: 25px;
+	background: #ffffff;
+	margin-top: 12px;
+	margin-left: 184px;
+	font-size: 11px;
+	color: #3e3a39;
+	text-align: center;
+	line-height: 25px;
+}
+.fi2{
+	width: 168px;
+	height: 16px;
+	background: #ffffff;
+	margin-top: 9px;
+	margin-left: 515px;
+	font-size: 11px;
+	color: #3e3a39;
+	text-align: center;
+	line-height: 16px;
+}
+.en{
+	width: 742px;
+	height: 45px;
+	background: #ffffff;
+	margin-left: 216px;
+	margin-top: 37px;
+}
+.tu1{
+	width: 112px;
+	height: 40px;
+	background: white;
+	float: left;
+	margin-top: 4px;
+	margin-right: 22px;
+	background: url('../img/凡客VANCL_006.png') no-repeat center center;
+	background-size: 112px 40px;
+	border: 1px solid #fc8610;
+}
+.tu2{
+	width: 159px;
+	height: 45px;
+	background: white;
+	float: left;
+	margin-top: 0px;
+	margin-right: 24px;
+	background: url('../img/凡客VANCL_009.png') no-repeat center center;
+	background-size: 159px 45px;
+	border: 1px solid #c9c8c8;
+}
+.tu3{
+	width: 87px;
+	height: 39px;
+	background: white;
+	float: left;
+	margin-top: 4px;
+	margin-right: 28px;
+	background: url('../img/凡客VANCL_0009.png') no-repeat center center;
+	background-size: 87px 39px;
+}
+.tu4{
+	width: 96px;
+	height: 40px;
+	background: white;
+	float: left;
+	margin-top: 5px;
+	margin-right: 26px;
+	background: url('../img/凡客VANCL_18.png') no-repeat center center;
+	background-size: 96px 40px;
+}
+.tu5{
+	width: 42px;
+	height: 42px;
+	background: white;
+	float: left;
+	margin-top: 3px;
+	margin-right: 20px;
+	background: url('../img/凡客VANCL_017.png') no-repeat center center;
+	background-size: 42px 42px;
+}
+.tu6{
+	width: 120px;
+	height: 39px;
+	background: white;
+	float: left;
+	margin-top: 6px;
+	margin-right: 0px;
+	background: url('../img/kexin_brand_for_others.png') no-repeat center center;
+	background-size: 120px 39px;
+}
+.bannerBox{
+	width: 1200px;
+	height: 535px;
+	background: yellowgreen;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.banner{
+	width: 100%;
+	height: 100%;
+	position: relative;	
+}
+.banner>li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.banner>li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner>li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner>li:first-child{
+	left: 0;
+}
+.back{
+	display: block;
+	width: 18px;
+	height: 53px;
+	background: pink;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 13px;
+	background: url('../img/focus_lr0918.png') no-repeat -3px -5px;
+
+
+}
+.back:hover{
+	background: url('../img/focus_lr0918.png') no-repeat -3px -66px;
+
+}
+.forward{
+	display: block;
+	width: 18px;
+	height: 53px;
+	background: pink;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 11px;
+	background: url('../img/focus_lr0918.png') no-repeat -60px -5px;
+
+}
+.forward:hover{
+	background: url('../img/focus_lr0918.png') no-repeat -60px -66px;
+
+}
+.lunbodian{
+	width: 120px;
+	height: 12px;
+	/* background: green; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 23px;
+	cursor: pointer;
+}
+.dian{
+	width: 12px;
+	height: 12px;
+	background: #dddddd;
+	border-radius: 50%;
+	float: left;
+	margin-right: 8px;
+}
+.hot1{
+	background:  #a10000;
+}
+.dian:hover{
+	background:  #a10000;
+}
+.ding{
+	width: 75px;
+	height: 206px;
+	background: red;
+	background: url('../img/baywindow.png') no-repeat center center;
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+}

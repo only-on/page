@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	canvas{
+		border: 1px solid red;
+	}
+</style>
+<body>
+	<canvas width="500" height="500"></canvas>
+</body>
+</html>
+<script>
+	let canvas=document.querySelector('canvas');
+	let ctx=canvas.getContext("2d");
+	//铅笔画线效果
+	/*canvas.onmousedown=function(e){
+		let ox=e.offsetX,oy=e.offsetY;
+		ctx.beginPath();//鼠标按下开始路径
+		ctx.moveTo(ox,oy);
+		canvas.onmousemove=function(e){
+			let cx=e.offsetX,cy=e.offsetY;//鼠标停止的地方		
+			ctx.lineTo(cx,cy);			
+			ctx.stroke();//不需要关闭路径
+			canvas.onmouseup=function(){
+				canvas.onmousemove=null;
+				canvas.onmouseup=null;
+			}
+		}
+	}*/
+	//鼠标按下移动画线
+	let data=[];
+	canvas.onmousedown=function(e){
+		let ox=e.offsetX,oy=e.offsetY;
+		canvas.onmousemove=function(e){
+			let cx=e.offsetX,cy=e.offsetY;//鼠标停止的地方
+			ctx.clearRect(0,0,canvas.width,canvas.height);
+			if(data.length>0){
+				//将上一次画的放在画布中，然后开始下一次画
+				ctx.putImageData(data[data.length-1],0,0);
+			}
+			ctx.beginPath();
+			ctx.moveTo(ox,oy);
+			ctx.setLineDash([10,20]);//画虚线
+			ctx.lineTo(cx,cy);
+			ctx.closePath();
+			ctx.stroke();
+			canvas.onmouseup=function(){
+				data.push(ctx.getImageData(0,0,canvas.width,canvas.height));//鼠标抬起之后保存整个画布所有的内容
+				canvas.onmousemove=null;
+				canvas.onmouseup=null;
+			}
+		}
+	}
+	//撤销
+	document.onkeydown=function(e){
+		if(e.ctrlKey && e.keyCode==90){
+			let cexiao=data.pop();
+			ctx.putImageData(cexiao,0,0);
+		}
+	}
+</script>

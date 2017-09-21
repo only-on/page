@@ -1,0 +1,55 @@
+{
+  "index.html": {
+    "resources": [
+      "css/index.css",
+      "img/shouye6.png",
+      "qianduan.html",
+      "img/jiemian2_02.png",
+      "img/logo.png",
+      "shizi.html",
+      "about.html",
+      "js/rem.js"
+    ],
+    "refer": [
+      "qianduan.html",
+      "shizi.html"
+    ]
+  },
+  "qianduan.html": {
+    "resources": [
+      "index.html",
+      "img/qianduan3_03.png",
+      "css/qianduan.css",
+      "img/qianduan_13.png",
+      "img/qianduan_11.png",
+      "img/qianduan00_03.png",
+      "img/qinaduan12.png",
+      "img/qianduan.png",
+      "img/qianduan001_03.png",
+      "img/qianduan_07.png",
+      "img/qiandaun_08.png",
+      "img/qianduan06.png"
+    ],
+    "refer": [
+      "index.html"
+    ]
+  },
+  "shizi.html": {
+    "resources": [
+      "img/shizi_10.png",
+      "css/shizi.css",
+      "index.html"
+    ],
+    "refer": []
+  },
+  "about.html": {
+    "resources": [
+      "img/our_13.png",
+      "img/our_07.png",
+      "img/our_05.png",
+      "css/about.css",
+      "img/our_03.png"
+    ],
+    "refer": []
+  }
+}

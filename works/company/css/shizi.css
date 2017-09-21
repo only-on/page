@@ -1,0 +1,321 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-21 08:59:14
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-23 17:23:26
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+}
+.head{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+}
+.logo{
+	width:0.7rem;
+	height: 0.67rem;
+	margin-top: 0.13rem;
+	margin-left: 2.74rem;
+	float: left;
+}
+.logo img{
+	width:0.7rem;
+	height: 0.67rem;	
+	float: left;
+}
+.word1{
+	width: 1.15rem;
+	height: 0.35rem;
+	font-size: 0.35rem;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 0.16rem;
+	margin-top: 0.29rem;
+	float: left;
+}
+/* banner开始 */
+.banner{
+	width: 100%;
+	height:2.8rem;
+}
+.banner a{
+	display: block;
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a img{
+	width: 100%;
+	height: 2.8rem;
+}
+/* banner结束 */
+.daohang{
+	width: 100%;
+	height: 0.82rem;
+	background:#f5f6fa;
+}
+.shouye{
+	width: 0.6rem;
+	height: 0.24rem;
+	float: left;
+	margin-top: 0.31rem;
+	margin-left: 0.23rem;
+	font-size: 0.22rem;
+	color: #000;
+}
+.dayu{
+	width: 0.11rem;
+	height: 0.22rem;
+	margin-left: 0.15rem;
+	margin-top: 0.31rem;
+	float: left;
+	font-size: 0.22rem;
+	color: #000;
+}
+.shou1{
+	width: 1.5rem;
+}
+/* ui讲师开始 */
+.ui{
+	width: 100%;
+	height: 1.01rem;
+	background:#f5f6fa;
+}
+main{
+	width: 93.6%;
+	height: 100%;
+	background:#f5f6fa;
+	margin: 0 auto;
+}
+.kuang{
+	width: 100%;
+	height: 0.8rem;
+	background:#f5f6fa;
+	border-radius: 0.08rem;
+	border: 2px solid #01b5ff;
+	box-sizing: border-box;
+}
+.ui1{
+	width: 33.333333%;
+	height: 100%;
+	display: block;
+	float: left;
+	border-radius: 0.08rem;
+	background: #01b5ff;
+	text-align: center;
+	font-size: 0.26rem;
+	color: #fff;
+	line-height: 0.8rem;
+}
+.ui2{
+	background: #f5f6fa;
+	color: #000;
+}
+.sanjiao{
+	width: 0;
+	height: 0;
+	border-top: 0.12rem solid #01b5ff;
+	border-bottom: 0.12rem solid transparent;
+	border-left: 0.12rem solid transparent;
+	border-right: 0.12rem solid transparent;
+	margin-left: 1.2rem;
+}
+/* ui讲师结束 */
+/* 详情开始 */
+.xiangqing{
+	width: 100%;
+	height: 14.10rem;
+	background:#f5f6fa;
+}
+.big-box{
+	width: 100%;
+	height: 2.7rem;
+	display: block;
+	background: #fff;
+	margin-bottom: 0.1rem;
+	overflow: hidden;
+}
+.big{
+	width: 4rem;
+	height: 100%;
+	background:#fff;
+	float:left; 
+}
+.zhaopian{
+	width: 2.3rem;
+	height: 2.3rem;
+	background: #fff;
+	border-radius: .05rem;
+	float: left;
+	margin-left: 0.21rem;
+	margin-top: 0.2rem;
+	margin-right: 0.32rem;
+}
+.zhaopian img{
+	width: 2.3rem;
+	height: 2.3rem;
+	border-radius: .05rem;
+	display: block;
+}
+.ming{
+	height: 0.25rem;
+	font-size: 0.25rem;
+	color: #000;
+	margin-top: 0.39rem;
+	float: left;	
+	margin-bottom: 0.1rem;
+}
+.chakan{
+	height: 0.23rem;
+	font-size: 0.23rem;
+	color: #ff9300;
+	margin-top: 0.41rem;
+	margin-right: 0.19rem;
+	float: right;
+}
+.xu{
+	width: 1.71rem;
+	border-bottom: 0.01rem dashed #999999;
+	margin-top: 0.74rem;
+}
+.shixun{
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #01b5ff;
+	margin-top: 0.1rem;
+	margin-bottom: 0.29rem;
+}
+.congshi{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #000;
+	margin-bottom: 0.13rem;
+}
+/* 详情结束 */
+/* 跳转到开始 */
+.tiao{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	float: left;
+	border-bottom: 0.2rem solid #f5f6fa;	
+}
+.tiaozhuan1{
+	width: 0.58rem;
+	height: 0.31rem;
+	display: block;
+	float: left;
+	border: 0.01rem solid #9b9b9b;
+	margin-top: 0.19rem;
+	margin-left: 0.15rem;
+	margin-right: 0.15rem;
+	border-radius: 0.1rem;
+	box-sizing: border-box;
+}
+.tiaozhuan2{
+	width: 0.48rem;
+	height: 0.23rem;
+	display: block;
+	float: left;
+	border: 0.01rem solid #333;
+	margin-top: 0.01rem;
+	margin-left: 0.03rem;	
+	border-radius: 0.07rem;
+	box-sizing: border-box;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.23rem;
+	color: #383838;
+}
+.tiaozhuan3{
+	width: 0.32rem;
+	height: 0.32rem;
+	display: block;
+	float: left;
+	border: 0.01rem solid #999;
+	margin-top: 0.19rem;
+	border-radius: 50%;
+	box-sizing: border-box;
+	margin-right: 0.15rem;	
+}
+.tiaozhuan4{
+	width: 0.24rem;
+	height: 0.24rem;
+	display: block;
+	float: left;
+	border: 0.01rem solid #333;
+	margin-left: 0.02rem;
+	margin-top: 0.02rem;
+	border-radius: 50%;
+	font-size: 0.06rem;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #000;
+}
+.tiaozhuan31{
+	background: #01b5ff;
+	box-shadow: 0 0 10px 3px rgba(1, 181, 255, 0.6)	
+}
+.tiaozhuan41{
+	background: #01b5ff;
+	border: 0.01rem solid #fff;
+}
+.tiaozhuan5{
+	margin-right: 0.19rem;
+}
+.tiaozhuan6{
+	width: 0.26rem;
+	border: 0.02rem dashed #000;
+	margin-top: 0.38rem;
+	float: left;
+	margin-right: 0.22rem;
+}
+.tiaozhuan7{
+	margin-left: 0;
+	margin-right: 0.15rem;
+}
+.tiaozhuan8{
+	height: 0.14rem;
+	font-size: 0.14rem;
+	line-height: 0,14rem;
+	color: #111;
+	margin-top: 0.16rem;
+	float: left;
+}
+.tiaozhuan9{
+	background: #fafafa;
+}
+.tiaozhuan10{
+	margin-right: 0.02rem;
+}
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+	overflow: hidden;
+}
+.wen1{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	/* line-height: 0.22rem; */
+	text-align: center;
+	/* margin-top: 0.19rem; */
+	margin-bottom: 0.13rem;
+	color:#8a8a8b;
+}
+.wen2{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: #8a8a8b;
+}

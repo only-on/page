@@ -1,0 +1,170 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-27 12:28:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-18 22:53:44
+*/
+.ding{
+	width: 100%;
+	height: 60px;
+	background:rgba(0,0,0,0.6);
+	position: fixed;
+	z-index: 999;
+	top: -60px;
+}
+.ding1{
+	height:40px;
+	width: 650px;	
+	position: absolute;
+	top: 10px;
+	right:25px;
+	display: flex;
+	justify-content: space-between;
+}
+.ding1>li{
+	height: 40px;
+	line-height:40px;
+	font-size: 14px;	
+	display: block;
+	float: left;	
+}
+.ding1 li a{
+	color: #fff;
+}
+.ding1 li a:hover{
+	color: #f1c70a;
+}
+
+.ding1 li:hover{
+	border-bottom: 4px solid #f1c70a;
+	box-sizing: border-box;
+}
+.login{
+	width: 300px;
+	height: 100%;
+	float: left;
+}
+.Login{
+	display: block;
+	width: 60px;
+	height:28px;
+	border-radius:30px;
+	border: 1px solid #fff;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+	font-size:14px;	
+	float: left;
+	margin-right: 50px;
+}
+.Login:hover{
+	background:#f1c70a;
+	border: 1px solid #f1c70a;
+	color: #fff;	
+}
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+.banner{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: pink;
+}
+.banner>img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 150px;
+	height: 50px;
+	background: yellow;
+	position: absolute;
+	top: 30px;
+	left:120px;
+	background: url('../img/fitnesslogo.png') no-repeat center center;
+	background-size: 150px 50px;
+	z-index: 999;
+}
+.nav{
+	height:40px;
+	width: 650px;	
+	position: absolute;
+	top: 30px;
+	right: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav>li{
+	height: 40px;
+	line-height:40px;
+	font-size: 14px;	
+	display: block;
+	float: left;
+}
+.nav>li>a{
+	color: #fff;
+}
+.nav li a:hover{
+	color: #f1c70a;
+}
+.nav li:hover{
+	border-bottom: 4px solid  #f1c70a;
+	box-sizing: border-box;
+}
+.sec{
+	width:64px;
+	height: 40px;
+	background:#fff;
+	position: absolute;
+	left:-4px;
+	top:40px;
+	display:none;
+}
+.sec1{
+	border-top:4px solid #f1c70a;
+	display: block;
+	color: #757473;
+	text-align: center;
+	line-height: 40px;
+}
+.wordBox{
+	width: 600px;
+	height: 80px;
+	position: absolute;
+	left:120px;
+	top: 350px;
+}
+.shu{
+	width: 5px;
+	height: 60px;
+	background: #fff;
+	float: left;
+	margin-right: 10px;
+}
+.word{
+	font-size: 30px;
+	color: #fff;
+}
+.word1{
+	font-size: 12px;
+	color: #fff;
+}
+.word3{
+	position: absolute;
+	bottom: 250px;
+	left:120px;
+	color: #fff;
+	font-size:24px;
+}
+/* 头部结束 */

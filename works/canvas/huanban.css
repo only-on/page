@@ -1,0 +1,169 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-28 18:11:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-30 19:36:45
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+main{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;	
+}
+.left{
+	width: 130px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background:#d9d9f9;
+	border-right: 2px solid #fff;
+	padding: 0 5px 0 5px;
+	box-sizing: border-box;	
+}
+.logo{
+	font-family: 'iconfont';
+	width: 100%;
+	height: 78px;
+	font-size: 50px;
+	color: #fff;
+	line-height: 78px;
+	text-align: center;
+}
+.xingzhuang{
+	width: 100%;
+	height: 20px;	
+	font-size:16px;
+	color: #000;
+	text-align: center;
+	padding:5px 0 10px 0; 
+	
+}
+.gongju{
+	width: 100%;
+	height: 20px;	
+	font-size:16px;
+	color: #000;
+	text-align: center;
+	padding:5px 0; 
+}
+.right{	
+	height: 100%;	
+	position: absolute;
+	left: 130px;
+	top: 0; 
+	right: 0;	
+}
+.right>.top{
+	width: 100%;
+	height: 78px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #d9d9f9;
+	border-bottom: 2px solid #fff;
+}
+.right>.bottom{
+	width: 100%;	
+	position: absolute;	
+	top: 80px;
+	bottom: 0;
+}
+.left>ul{
+	width: 120px;
+	height:450px;
+	padding: 0 17px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.left>ul>li{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	float: left;
+	box-sizing: border-box;	
+	margin-bottom: 3px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'iconfont';
+	cursor: pointer;
+}
+.left>ul>li:hover{
+	font-size: 25px;
+}
+.left>ul>li>input{
+	width: 23px;
+	height: 23px;
+}
+.right>.top>ol{
+	width: 250px;	
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;		
+	display: flex;
+	justify-content: space-between;
+}
+.right>.top>ol>li,.right>.top>ol>a{
+	width:50px;
+	height: 50px;
+	float: left;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	line-height: 50px;
+	text-align: center;
+	font-size:30px;
+	font-family: 'iconfont';
+	color: #fff;
+	cursor: pointer;
+}
+.left>ul>li[active=true]{
+	background: #fff;
+	color:#d1d6fe;	
+}
+.bottom>.eraser{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	background:#afb0bb;
+	border-radius: 5px;
+	display: none;
+}
+.bottom>.mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.top>ol>li:active{
+	background: #fff;
+	color:#d1d6fe;
+}
+.bottom>.clip{
+	width: 200px;
+	height: 200px;
+	border: 1px dashed #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}

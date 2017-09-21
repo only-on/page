@@ -1,0 +1,171 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-27 00:40:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-19 11:25:17
+*/
+footer{
+	width: 100%;
+	height: 800px;
+	position: relative;	
+}
+.footer-mian{
+	width: 1200px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: 0;
+}
+.foot-box{
+	width: 100%;
+	height: 100%;	
+	background: url('../img/fitness32.jpg') no-repeat center center;
+	background-size: 100% 800px;
+	position: relative;
+}
+.zhezhao3{
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.xunlian{
+	width: 992px;
+	height: 167px;
+	/* background: pink; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top:300px;
+}
+.xunlian li{
+	width: 20%;
+	height: 100%;
+	/* background: red; */
+	float: left;	
+}
+.xunlian>li>h3{	
+	text-align: center;
+	height:25px;
+	font-size: 18px;
+	color: #545454;
+	margin-bottom: 15px;
+}
+.fuji{
+	display: block;
+	text-align: center;
+	height: 25px;
+	font-size: 16px;
+	color: #545454;
+	margin-bottom: 7px;
+}
+.fuji:hover{
+	color:#1d1d1d;
+}
+.lianxi{
+	width: 900px;
+	height: 30px;
+	/* background: pink; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom:260px;
+	display: flex;
+	justify-content: space-between;
+}
+.lianxi1{
+	/* width: 33.333333%; */
+	height: 100%;
+	float: left;
+}
+.dizhi{
+	display: block;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #757473;
+	float: left;
+	margin-right: 5px;
+}
+.fangzi{	
+	font-family: 'iconfont';
+	height:30px;
+	float: left;
+	line-height: 30px;
+	font-size: 16px;
+	color: #757473;
+	margin-right: 15px;	
+}
+.ditu{
+	width: 800px;
+	height: 150px;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom:90px;
+	background: url('../img/fitness36_14.png') no-repeat center center;
+	background-size: 800px 150px;
+}
+.fenxiang{
+	width: 200px;
+	height: 40px;	
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.qq{
+	font-family: 'iconfont';
+	font-size: 40px;
+	color: #3d3d3d;
+	float: left;
+}
+.qq1{
+	font-size: 38px;
+}
+.qq:hover{
+	color:#1d1d1d;	
+}
+/* 底部结束 */
+/* 版权开始 */
+.banquan{
+	width: 100%;
+	height: 80px;
+	background: #353535;
+}
+.banquan1{
+	line-height:80px;
+	font-size: 14px;
+	color: #f6f6f6;
+	text-align: center;
+}
+.fanhui{	
+	position: fixed;
+	right:20px;
+	bottom:20px;
+	z-index: 999;
+	font-family: 'iconfont';
+	color: #454545;
+	font-size: 40px; 
+	display: none;
+	cursor: pointer;
+}
+.fanhui:hover{
+	color: #f1c70a;
+}
